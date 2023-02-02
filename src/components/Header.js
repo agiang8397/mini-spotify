@@ -5,6 +5,7 @@ function Header() {
   const { currentTrackName } = useMusicPlayer();
   return (
     <div className="header">
+      // eslint-disable-next-line
       <marquee>{currentTrackName}</marquee>
     </div>
   );
